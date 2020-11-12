@@ -1,0 +1,12 @@
+<h1>Zeit Checking OF Env Variable</h1>
+<script>
+var name='{{ env('NAME')}}';
+var api='{{ env('API_KEY')}}';
+document.getElementById("name").innerHTML = name;
+document.getElementById("api").innerHTML = api;
+</script>
+
+
+<h2 id="name"></h2>
+
+<h2 id="api"></h2>
