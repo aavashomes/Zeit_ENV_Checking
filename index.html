@@ -2,6 +2,7 @@
 <script>
 var name='{{ env('NAME')}}';
 var api='{{ env('API_KEY')}}';
+  console.log(name);
 document.getElementById("name").innerHTML = name;
 document.getElementById("api").innerHTML = api;
 </script>
